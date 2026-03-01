@@ -1,0 +1,86 @@
+# html-practice
+My HTML learning journey 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+  </head>
+  
+    <style>
+    body
+  {
+  font-family:Arial,sans-serif;
+  Color:darkblue;
+  }
+      </style>
+  <body>
+    <form>
+    
+    <h2>Student Registration Form</h2>
+    <br> </br>
+    <fieldset>
+      <legend>
+        Personal Information 
+      </legend>
+    <br> </br>
+   <label for="name">Name:</label>
+    <input type="text" id="name" name="name" maxlength="20" required>
+    <br> <br>
+    <label>Email:</label>
+    <input type="email" id="E-mail id" name="Email"required>
+    <br> <br>
+    <label>Password:</label>
+    <input type="password" required>
+    <br> <br>
+     <fieldset>
+       <legend>
+          Other Details
+      </legend>
+       <label>Gender:</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <br> <br>
+    <form>
+    <label for="city">Select your city:</label>
+    
+    <select id="city" name="city">
+        <option value="mumbai">Mumbai</option>
+        <option value="delhi">Delhi</option>
+        <option value="pune">Pune</option>
+        <option value="bangalore">Bangalore</option>
+    </select>
+      
+     <br> <br>
+       <label for="Course">Select you course:</label>
+       
+    
+
+    <select id="course" name="Course">
+
+        <option value="B Tech">B Tech</option>
+
+        <option value="M Tech">M Tech</option>
+
+        <option value="BSc">BSc</option>
+
+        <option value="MSc">MSc</option>
+      
+        <option value="BE">BE</option>
+      
+        <option value="BCA">BCA</option>
+
+    </select>
+    
+    <br><br>
+    <label>Skills:</label>
+    <input type="checkbox">CSS
+    <input type="checkbox">Java
+    <input type="checkbox">Html
+    <br> <br>
+      <input type="checkbox" required> I agree to terms and conditions
+      <br> <br>
+      
+    <button type="Submit">Register </button>
+    </form>
+ </body>
+  </html>
